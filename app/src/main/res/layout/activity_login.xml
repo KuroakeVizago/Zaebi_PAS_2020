@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#9454EF"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Login">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="80dp"
+        android:src="@mipmap/football2"
+        ></ImageView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="WELCOME PLEASE LOGIN"
+        android:textSize="17dp"
+        android:textColor="#000000"
+        android:fontFamily="@font/lemonadabold"
+        android:gravity="center"
+        android:layout_marginTop="40dp"
+        ></TextView>
+
+    <EditText
+        android:id="@+id/txt_Username"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="20dp"
+        android:hint="Username"
+        android:textColorHint="#797979"
+        android:backgroundTint="#797979 "
+        ></EditText>
+
+    <EditText
+        android:id="@+id/txt_Password"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="20dp"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textColorHint="#797979"
+        android:backgroundTint="#797979 "
+        ></EditText>
+
+    <Button
+        android:id="@+id/btn_Login"
+        android:layout_width="320dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_gravity="center"
+        android:background="#0022CA"
+        android:text="LOGIN"
+        android:textColor="#FFFFFF"
+        ></Button>
+</LinearLayout>
